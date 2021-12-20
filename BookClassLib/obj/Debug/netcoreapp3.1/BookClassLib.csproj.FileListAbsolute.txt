@@ -1,0 +1,13 @@
+C:\Users\venka\source\repos\BookClassLib\bin\Debug\netcoreapp3.1\BookClassLib.deps.json
+C:\Users\venka\source\repos\BookClassLib\bin\Debug\netcoreapp3.1\BookClassLib.runtimeconfig.json
+C:\Users\venka\source\repos\BookClassLib\bin\Debug\netcoreapp3.1\BookClassLib.runtimeconfig.dev.json
+C:\Users\venka\source\repos\BookClassLib\bin\Debug\netcoreapp3.1\BookClassLib.dll
+C:\Users\venka\source\repos\BookClassLib\bin\Debug\netcoreapp3.1\BookClassLib.pdb
+C:\Users\venka\source\repos\BookClassLib\obj\Debug\netcoreapp3.1\BookClassLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\venka\source\repos\BookClassLib\obj\Debug\netcoreapp3.1\BookClassLib.AssemblyInfoInputs.cache
+C:\Users\venka\source\repos\BookClassLib\obj\Debug\netcoreapp3.1\BookClassLib.AssemblyInfo.cs
+C:\Users\venka\source\repos\BookClassLib\obj\Debug\netcoreapp3.1\BookClassLib.csproj.CoreCompileInputs.cache
+C:\Users\venka\source\repos\BookClassLib\obj\Debug\netcoreapp3.1\BookClassLib.dll
+C:\Users\venka\source\repos\BookClassLib\obj\Debug\netcoreapp3.1\BookClassLib.pdb
+C:\Users\venka\source\repos\BookClassLib\obj\Debug\netcoreapp3.1\BookClassLib.genruntimeconfig.cache
+C:\Users\venka\source\repos\BookClassLib\obj\Debug\netcoreapp3.1\BookClassLib.csproj.AssemblyReference.cache

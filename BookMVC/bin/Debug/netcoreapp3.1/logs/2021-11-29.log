@@ -1,0 +1,320 @@
+2021-11-29 12:26:31.9183|ERROR|allfiles|Checking for error
+2021-11-29 12:27:10.2600|ERROR|allfiles|Checking for error
+2021-11-29 12:29:00.2740 DEBUG Hosting starting
+2021-11-29 12:29:00.3177 INFO User profile is available. Using 'C:\Users\venka\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-29 12:29:00.3177 DEBUG Reading data from file 'C:\Users\venka\AppData\Local\ASP.NET\DataProtection-Keys\key-be2ee382-ffc5-451c-bb44-ce6f240db5af.xml'.
+2021-11-29 12:29:00.3315 DEBUG Found key {be2ee382-ffc5-451c-bb44-ce6f240db5af}.
+2021-11-29 12:29:00.3315 DEBUG Considering key {be2ee382-ffc5-451c-bb44-ce6f240db5af} with expiration date 2022-01-17 11:53:20Z as default key.
+2021-11-29 12:29:00.3490 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.16.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-11-29 12:29:00.3490 DEBUG Decrypting secret element using Windows DPAPI.
+2021-11-29 12:29:00.3490 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.16.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-11-29 12:29:00.3490 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2021-11-29 12:29:00.3490 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2021-11-29 12:29:00.3490 DEBUG Using key {be2ee382-ffc5-451c-bb44-ce6f240db5af} as the default key.
+2021-11-29 12:29:00.3490 DEBUG Key ring with default key {be2ee382-ffc5-451c-bb44-ce6f240db5af} was loaded during application startup.
+2021-11-29 12:29:00.4155 DEBUG Loaded hosting startup assembly BookMVC
+2021-11-29 12:29:00.4155 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2021-11-29 12:29:00.4155 INFO Application started. Press Ctrl+C to shut down.
+2021-11-29 12:29:00.4155 INFO Hosting environment: Development
+2021-11-29 12:29:00.4155 INFO Content root path: C:\Users\venka\source\repos\BookMVC
+2021-11-29 12:29:00.4155 DEBUG Hosting started
+2021-11-29 12:29:00.4343 INFO Request starting HTTP/1.1 GET http://localhost:48534/  
+2021-11-29 12:29:00.4383 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2021-11-29 12:29:00.4383 DEBUG The request path / does not match a supported file type
+2021-11-29 12:29:00.4646 DEBUG 1 candidate(s) found for the request path '/'
+2021-11-29 12:29:00.4675 DEBUG Endpoint 'BookMVC.Controllers.BookController.Allbooks (BookMVC)' with route pattern '{controller=Book}/{action=Allbooks}/{id?}' is valid for the request path '/'
+2021-11-29 12:29:00.4675 DEBUG Request matched endpoint 'BookMVC.Controllers.BookController.Allbooks (BookMVC)'
+2021-11-29 12:29:00.5217 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-11-29 12:29:00.5451 DEBUG AuthenticationScheme: Identity.Application was successfully authenticated.
+2021-11-29 12:29:00.5451 INFO Executing endpoint 'BookMVC.Controllers.BookController.Allbooks (BookMVC)'
+2021-11-29 12:29:00.5451 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+2021-11-29 12:29:00.5690 INFO Route matched with {action = "Allbooks", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Allbooks() on controller BookMVC.Controllers.BookController (BookMVC).
+2021-11-29 12:29:00.5690 DEBUG Execution plan of authorization filters (in the following order): None
+2021-11-29 12:29:00.5690 DEBUG Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2021-11-29 12:29:00.5690 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2021-11-29 12:29:00.5690 DEBUG Execution plan of exception filters (in the following order): None
+2021-11-29 12:29:00.5690 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2021-11-29 12:29:00.5690 DEBUG Executing controller factory for controller BookMVC.Controllers.BookController (BookMVC)
+2021-11-29 12:29:00.5690 DEBUG Executed controller factory for controller BookMVC.Controllers.BookController (BookMVC)
+2021-11-29 12:29:00.5690 ERROR Checking for error
+2021-11-29 12:29:00.5690 INFO In MVC method to get all books
+2021-11-29 12:29:02.3054 DEBUG Initializing Razor view compiler with compiled view: '/Views/Book/Allbooks.cshtml'.
+2021-11-29 12:29:02.3054 DEBUG Initializing Razor view compiler with compiled view: '/Views/Book/Create.cshtml'.
+2021-11-29 12:29:02.3054 DEBUG Initializing Razor view compiler with compiled view: '/Views/Book/Details.cshtml'.
+2021-11-29 12:29:02.3054 DEBUG Initializing Razor view compiler with compiled view: '/Views/Book/Edit.cshtml'.
+2021-11-29 12:29:02.3054 DEBUG Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2021-11-29 12:29:02.3054 DEBUG Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2021-11-29 12:29:02.3054 DEBUG Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2021-11-29 12:29:02.3054 DEBUG Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2021-11-29 12:29:02.3054 DEBUG Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2021-11-29 12:29:02.3054 DEBUG Initializing Razor view compiler with compiled view: '/Views/User/Login.cshtml'.
+2021-11-29 12:29:02.3054 DEBUG Initializing Razor view compiler with compiled view: '/Views/User/Register.cshtml'.
+2021-11-29 12:29:02.3054 DEBUG Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2021-11-29 12:29:02.3054 DEBUG Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2021-11-29 12:29:02.3123 DEBUG View lookup cache miss for view 'Allbooks' in controller 'Book'.
+2021-11-29 12:29:02.3123 INFO Executing ViewResult, running view Allbooks.
+2021-11-29 12:29:02.3123 DEBUG The view path '/Views/Book/Allbooks.cshtml' was found in 6.0892ms.
+2021-11-29 12:29:02.3491 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:02.3491 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Create and 
+2021-11-29 12:29:02.3491 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Create
+2021-11-29 12:29:02.3616 DEBUG View lookup cache miss for view 'DisplayTemplates/Int32' in controller 'Book'.
+2021-11-29 12:29:02.3616 DEBUG View lookup cache miss for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:29:02.3616 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:29:02.3616 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:29:02.3616 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:29:02.3616 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:02.3616 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Edit/1 and 
+2021-11-29 12:29:02.3616 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Edit/1
+2021-11-29 12:29:02.3616 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:02.3616 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Details/1 and 
+2021-11-29 12:29:02.3616 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Details/1
+2021-11-29 12:29:02.3616 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:02.3616 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Delete/1 and 
+2021-11-29 12:29:02.3616 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Delete/1
+2021-11-29 12:29:02.3616 DEBUG View lookup cache hit for view 'DisplayTemplates/Int32' in controller 'Book'.
+2021-11-29 12:29:02.3616 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:29:02.3616 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:29:02.3616 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:29:02.3616 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:29:02.3616 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:02.3616 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Edit/2 and 
+2021-11-29 12:29:02.3616 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Edit/2
+2021-11-29 12:29:02.3616 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:02.3616 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Details/2 and 
+2021-11-29 12:29:02.3616 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Details/2
+2021-11-29 12:29:02.3616 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:02.3616 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Delete/2 and 
+2021-11-29 12:29:02.3616 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Delete/2
+2021-11-29 12:29:02.3616 DEBUG View lookup cache hit for view 'DisplayTemplates/Int32' in controller 'Book'.
+2021-11-29 12:29:02.3616 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:29:02.3616 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:29:02.3616 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:29:02.3616 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:29:02.3616 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:02.3616 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Edit/3 and 
+2021-11-29 12:29:02.3616 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Edit/3
+2021-11-29 12:29:02.3616 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:02.3616 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Details/3 and 
+2021-11-29 12:29:02.3616 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Details/3
+2021-11-29 12:29:02.3616 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:02.3616 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Delete/3 and 
+2021-11-29 12:29:02.3616 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Delete/3
+2021-11-29 12:29:02.3616 DEBUG View lookup cache miss for view '_Layout' in controller 'Book'.
+2021-11-29 12:29:02.3791 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:02.3791 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Home/Index and 
+2021-11-29 12:29:02.3791 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Home/Index
+2021-11-29 12:29:02.3791 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:02.3791 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Home/Index and 
+2021-11-29 12:29:02.3791 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Home/Index
+2021-11-29 12:29:02.3791 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:02.3791 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Home/Privacy and 
+2021-11-29 12:29:02.3791 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Home/Privacy
+2021-11-29 12:29:02.3791 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:02.3791 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /User/Logout and 
+2021-11-29 12:29:02.3791 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /User/Logout
+2021-11-29 12:29:02.3791 DEBUG An antiforgery cookie token was reused.
+2021-11-29 12:29:02.3791 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:02.3791 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in  and 
+2021-11-29 12:29:02.3791 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /
+2021-11-29 12:29:02.3791 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:02.3791 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Home/Privacy and 
+2021-11-29 12:29:02.3791 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Home/Privacy
+2021-11-29 12:29:02.3919 DEBUG Response markup is scheduled to include browser refresh script injection.
+2021-11-29 12:29:02.3919 INFO Executed ViewResult - view Allbooks executed in 89.0355ms.
+2021-11-29 12:29:02.3919 INFO Executed action BookMVC.Controllers.BookController.Allbooks (BookMVC) in 1831.4944ms
+2021-11-29 12:29:02.3919 INFO Executed endpoint 'BookMVC.Controllers.BookController.Allbooks (BookMVC)'
+2021-11-29 12:29:02.3919 DEBUG Response markup was updated to include browser refresh script injection.
+2021-11-29 12:29:02.4065 INFO Request finished in 1973.9023ms 200 text/html; charset=utf-8
+2021-11-29 12:29:02.4231 INFO Request starting HTTP/1.1 GET http://localhost:48534/_framework/aspnetcore-browser-refresh.js  
+2021-11-29 12:29:02.4231 INFO Request finished in 1.1842ms 200 application/javascript; charset=utf-8
+2021-11-29 12:29:03.9128 INFO Request starting HTTP/1.1 GET http://localhost:48534/Book/Details/3  
+2021-11-29 12:29:03.9128 DEBUG The request path /Book/Details/3 does not match a supported file type
+2021-11-29 12:29:03.9128 DEBUG 1 candidate(s) found for the request path '/Book/Details/3'
+2021-11-29 12:29:03.9128 DEBUG Endpoint 'BookMVC.Controllers.BookController.Details (BookMVC)' with route pattern '{controller=Book}/{action=Allbooks}/{id?}' is valid for the request path '/Book/Details/3'
+2021-11-29 12:29:03.9128 DEBUG Request matched endpoint 'BookMVC.Controllers.BookController.Details (BookMVC)'
+2021-11-29 12:29:03.9128 DEBUG AuthenticationScheme: Identity.Application was successfully authenticated.
+2021-11-29 12:29:03.9128 INFO Executing endpoint 'BookMVC.Controllers.BookController.Details (BookMVC)'
+2021-11-29 12:29:03.9269 INFO Route matched with {action = "Details", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int32) on controller BookMVC.Controllers.BookController (BookMVC).
+2021-11-29 12:29:03.9269 DEBUG Execution plan of authorization filters (in the following order): None
+2021-11-29 12:29:03.9269 DEBUG Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2021-11-29 12:29:03.9269 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2021-11-29 12:29:03.9269 DEBUG Execution plan of exception filters (in the following order): None
+2021-11-29 12:29:03.9269 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2021-11-29 12:29:03.9269 DEBUG Executing controller factory for controller BookMVC.Controllers.BookController (BookMVC)
+2021-11-29 12:29:03.9269 DEBUG Executed controller factory for controller BookMVC.Controllers.BookController (BookMVC)
+2021-11-29 12:29:03.9269 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' ...
+2021-11-29 12:29:03.9269 DEBUG Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2021-11-29 12:29:03.9269 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2021-11-29 12:29:03.9269 DEBUG Done attempting to bind parameter 'id' of type 'System.Int32'.
+2021-11-29 12:29:03.9269 DEBUG Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2021-11-29 12:29:03.9269 DEBUG Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2021-11-29 12:29:03.9269 INFO In MVC method to get book by ID
+2021-11-29 12:29:04.0540 DEBUG View lookup cache miss for view 'Details' in controller 'Book'.
+2021-11-29 12:29:04.0540 INFO Executing ViewResult, running view Details.
+2021-11-29 12:29:04.0540 DEBUG The view path '/Views/Book/Details.cshtml' was found in 0.699ms.
+2021-11-29 12:29:04.0602 DEBUG View lookup cache hit for view 'DisplayTemplates/Int32' in controller 'Book'.
+2021-11-29 12:29:04.0602 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:29:04.0602 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:29:04.0602 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:29:04.0602 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:29:04.0602 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:04.0602 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Edit and 
+2021-11-29 12:29:04.0602 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Edit
+2021-11-29 12:29:04.0602 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:04.0602 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Index and 
+2021-11-29 12:29:04.0602 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Index
+2021-11-29 12:29:04.0602 DEBUG View lookup cache hit for view '_Layout' in controller 'Book'.
+2021-11-29 12:29:04.0602 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:04.0602 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Home/Index and 
+2021-11-29 12:29:04.0602 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Home/Index
+2021-11-29 12:29:04.0602 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:04.0602 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Home/Index and 
+2021-11-29 12:29:04.0602 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Home/Index
+2021-11-29 12:29:04.0602 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:04.0602 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Home/Privacy and 
+2021-11-29 12:29:04.0602 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Home/Privacy
+2021-11-29 12:29:04.0602 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:04.0602 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /User/Logout and 
+2021-11-29 12:29:04.0602 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /User/Logout
+2021-11-29 12:29:04.0602 DEBUG An antiforgery cookie token was reused.
+2021-11-29 12:29:04.0602 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:04.0602 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in  and 
+2021-11-29 12:29:04.0602 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /
+2021-11-29 12:29:04.0602 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:29:04.0602 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Home/Privacy and 
+2021-11-29 12:29:04.0602 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Home/Privacy
+2021-11-29 12:29:04.0602 DEBUG Response markup is scheduled to include browser refresh script injection.
+2021-11-29 12:29:04.0602 INFO Executed ViewResult - view Details executed in 11.1508ms.
+2021-11-29 12:29:04.0602 INFO Executed action BookMVC.Controllers.BookController.Details (BookMVC) in 138.0653ms
+2021-11-29 12:29:04.0602 INFO Executed endpoint 'BookMVC.Controllers.BookController.Details (BookMVC)'
+2021-11-29 12:29:04.0602 DEBUG Response markup was updated to include browser refresh script injection.
+2021-11-29 12:29:04.0602 INFO Request finished in 152.7369ms 200 text/html; charset=utf-8
+2021-11-29 12:29:04.0859 INFO Request starting HTTP/1.1 GET http://localhost:48534/_framework/aspnetcore-browser-refresh.js  
+2021-11-29 12:29:04.0859 INFO Request finished in 0.2265ms 200 application/javascript; charset=utf-8
+2021-11-29 12:31:01.8946 DEBUG Hosting starting
+2021-11-29 12:31:01.9314 INFO User profile is available. Using 'C:\Users\venka\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-29 12:31:01.9391 DEBUG Reading data from file 'C:\Users\venka\AppData\Local\ASP.NET\DataProtection-Keys\key-be2ee382-ffc5-451c-bb44-ce6f240db5af.xml'.
+2021-11-29 12:31:01.9391 DEBUG Found key {be2ee382-ffc5-451c-bb44-ce6f240db5af}.
+2021-11-29 12:31:01.9391 DEBUG Considering key {be2ee382-ffc5-451c-bb44-ce6f240db5af} with expiration date 2022-01-17 11:53:20Z as default key.
+2021-11-29 12:31:01.9602 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.16.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-11-29 12:31:01.9602 DEBUG Decrypting secret element using Windows DPAPI.
+2021-11-29 12:31:01.9602 DEBUG Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.16.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-11-29 12:31:01.9602 DEBUG Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2021-11-29 12:31:01.9602 DEBUG Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2021-11-29 12:31:01.9682 DEBUG Using key {be2ee382-ffc5-451c-bb44-ce6f240db5af} as the default key.
+2021-11-29 12:31:01.9682 DEBUG Key ring with default key {be2ee382-ffc5-451c-bb44-ce6f240db5af} was loaded during application startup.
+2021-11-29 12:31:02.0236 DEBUG Loaded hosting startup assembly BookMVC
+2021-11-29 12:31:02.0236 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2021-11-29 12:31:02.0236 INFO Application started. Press Ctrl+C to shut down.
+2021-11-29 12:31:02.0236 INFO Hosting environment: Development
+2021-11-29 12:31:02.0236 INFO Content root path: C:\Users\venka\source\repos\BookMVC
+2021-11-29 12:31:02.0236 DEBUG Hosting started
+2021-11-29 12:31:02.0412 INFO Request starting HTTP/1.1 GET http://localhost:48534/  
+2021-11-29 12:31:02.0449 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2021-11-29 12:31:02.0449 DEBUG The request path / does not match a supported file type
+2021-11-29 12:31:02.0632 DEBUG 1 candidate(s) found for the request path '/'
+2021-11-29 12:31:02.0632 DEBUG Endpoint 'BookMVC.Controllers.BookController.Allbooks (BookMVC)' with route pattern '{controller=Book}/{action=Allbooks}/{id?}' is valid for the request path '/'
+2021-11-29 12:31:02.0632 DEBUG Request matched endpoint 'BookMVC.Controllers.BookController.Allbooks (BookMVC)'
+2021-11-29 12:31:02.1182 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-11-29 12:31:02.1409 DEBUG AuthenticationScheme: Identity.Application was successfully authenticated.
+2021-11-29 12:31:02.1409 INFO Executing endpoint 'BookMVC.Controllers.BookController.Allbooks (BookMVC)'
+2021-11-29 12:31:02.1409 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+2021-11-29 12:31:02.1648 INFO Route matched with {action = "Allbooks", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Allbooks() on controller BookMVC.Controllers.BookController (BookMVC).
+2021-11-29 12:31:02.1648 DEBUG Execution plan of authorization filters (in the following order): None
+2021-11-29 12:31:02.1648 DEBUG Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2021-11-29 12:31:02.1648 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2021-11-29 12:31:02.1648 DEBUG Execution plan of exception filters (in the following order): None
+2021-11-29 12:31:02.1648 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2021-11-29 12:31:02.1648 DEBUG Executing controller factory for controller BookMVC.Controllers.BookController (BookMVC)
+2021-11-29 12:31:02.1648 DEBUG Executed controller factory for controller BookMVC.Controllers.BookController (BookMVC)
+2021-11-29 12:31:02.1648 ERROR Checking for error
+2021-11-29 12:31:02.1713 INFO In MVC method to get all books
+2021-11-29 12:31:04.3180 DEBUG Initializing Razor view compiler with compiled view: '/Views/Book/Allbooks.cshtml'.
+2021-11-29 12:31:04.3180 DEBUG Initializing Razor view compiler with compiled view: '/Views/Book/Create.cshtml'.
+2021-11-29 12:31:04.3180 DEBUG Initializing Razor view compiler with compiled view: '/Views/Book/Details.cshtml'.
+2021-11-29 12:31:04.3180 DEBUG Initializing Razor view compiler with compiled view: '/Views/Book/Edit.cshtml'.
+2021-11-29 12:31:04.3180 DEBUG Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2021-11-29 12:31:04.3180 DEBUG Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2021-11-29 12:31:04.3180 DEBUG Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2021-11-29 12:31:04.3180 DEBUG Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2021-11-29 12:31:04.3180 DEBUG Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2021-11-29 12:31:04.3180 DEBUG Initializing Razor view compiler with compiled view: '/Views/User/Login.cshtml'.
+2021-11-29 12:31:04.3180 DEBUG Initializing Razor view compiler with compiled view: '/Views/User/Register.cshtml'.
+2021-11-29 12:31:04.3180 DEBUG Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2021-11-29 12:31:04.3180 DEBUG Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2021-11-29 12:31:04.3180 DEBUG View lookup cache miss for view 'Allbooks' in controller 'Book'.
+2021-11-29 12:31:04.3306 INFO Executing ViewResult, running view Allbooks.
+2021-11-29 12:31:04.3306 DEBUG The view path '/Views/Book/Allbooks.cshtml' was found in 6.0495ms.
+2021-11-29 12:31:04.3655 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:31:04.3655 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Create and 
+2021-11-29 12:31:04.3655 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Create
+2021-11-29 12:31:04.3777 DEBUG View lookup cache miss for view 'DisplayTemplates/Int32' in controller 'Book'.
+2021-11-29 12:31:04.3777 DEBUG View lookup cache miss for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:31:04.3777 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:31:04.3777 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:31:04.3777 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:31:04.3777 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:31:04.3777 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Edit/1 and 
+2021-11-29 12:31:04.3777 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Edit/1
+2021-11-29 12:31:04.3777 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:31:04.3777 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Details/1 and 
+2021-11-29 12:31:04.3777 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Details/1
+2021-11-29 12:31:04.3777 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:31:04.3777 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Delete/1 and 
+2021-11-29 12:31:04.3777 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Delete/1
+2021-11-29 12:31:04.3777 DEBUG View lookup cache hit for view 'DisplayTemplates/Int32' in controller 'Book'.
+2021-11-29 12:31:04.3777 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:31:04.3777 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:31:04.3777 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:31:04.3777 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:31:04.3777 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:31:04.3777 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Edit/2 and 
+2021-11-29 12:31:04.3777 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Edit/2
+2021-11-29 12:31:04.3777 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:31:04.3777 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Details/2 and 
+2021-11-29 12:31:04.3777 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Details/2
+2021-11-29 12:31:04.3777 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:31:04.3777 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Delete/2 and 
+2021-11-29 12:31:04.3777 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Delete/2
+2021-11-29 12:31:04.3777 DEBUG View lookup cache hit for view 'DisplayTemplates/Int32' in controller 'Book'.
+2021-11-29 12:31:04.3777 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:31:04.3777 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:31:04.3777 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:31:04.3777 DEBUG View lookup cache hit for view 'DisplayTemplates/String' in controller 'Book'.
+2021-11-29 12:31:04.3777 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:31:04.3777 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Edit/3 and 
+2021-11-29 12:31:04.3777 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Edit/3
+2021-11-29 12:31:04.3777 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:31:04.3777 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Details/3 and 
+2021-11-29 12:31:04.3777 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Details/3
+2021-11-29 12:31:04.3777 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:31:04.3777 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Book/Delete/3 and 
+2021-11-29 12:31:04.3777 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Book/Delete/3
+2021-11-29 12:31:04.3777 DEBUG View lookup cache miss for view '_Layout' in controller 'Book'.
+2021-11-29 12:31:04.3948 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:31:04.3948 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Home/Index and 
+2021-11-29 12:31:04.3948 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Home/Index
+2021-11-29 12:31:04.3948 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:31:04.3948 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Home/Index and 
+2021-11-29 12:31:04.3948 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Home/Index
+2021-11-29 12:31:04.3948 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:31:04.3948 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Home/Privacy and 
+2021-11-29 12:31:04.3948 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Home/Privacy
+2021-11-29 12:31:04.3948 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:31:04.3948 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /User/Logout and 
+2021-11-29 12:31:04.3948 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /User/Logout
+2021-11-29 12:31:04.3948 DEBUG An antiforgery cookie token was reused.
+2021-11-29 12:31:04.3948 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:31:04.3948 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in  and 
+2021-11-29 12:31:04.3948 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /
+2021-11-29 12:31:04.3948 DEBUG Found the endpoints Route: {controller=Book}/{action=Allbooks}/{id?} for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-11-29 12:31:04.3948 DEBUG Successfully processed template {controller=Book}/{action=Allbooks}/{id?} for Route: {controller=Book}/{action=Allbooks}/{id?} resulting in /Home/Privacy and 
+2021-11-29 12:31:04.3948 DEBUG Link generation succeeded for endpoints Route: {controller=Book}/{action=Allbooks}/{id?} with result /Home/Privacy
+2021-11-29 12:31:04.4080 DEBUG Response markup is scheduled to include browser refresh script injection.
+2021-11-29 12:31:04.4080 INFO Executed ViewResult - view Allbooks executed in 93.6195ms.
+2021-11-29 12:31:04.4080 INFO Executed action BookMVC.Controllers.BookController.Allbooks (BookMVC) in 2253.4555ms
+2021-11-29 12:31:04.4080 INFO Executed endpoint 'BookMVC.Controllers.BookController.Allbooks (BookMVC)'
+2021-11-29 12:31:04.4204 DEBUG Response markup was updated to include browser refresh script injection.
+2021-11-29 12:31:04.4204 INFO Request finished in 2385.0103ms 200 text/html; charset=utf-8
+2021-11-29 12:31:04.4515 INFO Request starting HTTP/1.1 GET http://localhost:48534/_framework/aspnetcore-browser-refresh.js  
+2021-11-29 12:31:04.4515 INFO Request finished in 1.6108ms 200 application/javascript; charset=utf-8
