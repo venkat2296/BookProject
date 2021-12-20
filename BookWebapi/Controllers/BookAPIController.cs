@@ -73,7 +73,7 @@ namespace BookWebapi.Controllers
             {
                 return NotFound();
             }
-            Int16 x = (Int16)new object();
+            //Int16 x = (Int16)new object();
 
             ibooks.Delete(id);
             return NoContent();
