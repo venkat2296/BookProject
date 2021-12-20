@@ -18,3 +18,8 @@
 2021-12-20T12:53:13.1443960+05:30  [INF] Content root path: "C:\Users\venka\source\repos\Main Accenture\BookWebapi" (b5d60022)
 2021-12-20T12:53:13.2716925+05:30 40000008-0004-fb00-b63f-84710c7967bb [INF] Getting all books (f7a2af26)
 2021-12-20T12:53:13.9034064+05:30 40000008-0004-fb00-b63f-84710c7967bb [INF] API call to get all books (9aa656d7)
+2021-12-20T13:11:44.5116802+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-12-20T13:11:44.5199278+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2021-12-20T13:11:44.5200162+05:30  [INF] Content root path: "C:\Users\venka\source\repos\Main Accenture\BookWebapi" (b5d60022)
+2021-12-20T13:11:44.6214602+05:30 40000004-0006-ff00-b63f-84710c7967bb [INF] Getting all books (f7a2af26)
+2021-12-20T13:11:45.1671010+05:30 40000004-0006-ff00-b63f-84710c7967bb [INF] API call to get all books (9aa656d7)

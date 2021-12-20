@@ -26,7 +26,7 @@ namespace BookClassLib
 
         public Book GetByID(int id)
         {
-            logger.LogInformation("Getting book by id");
+            logger.LogInformation("Getting book by id test");
             return bookDatabaseContext.Book.Find(id);
         }
 
